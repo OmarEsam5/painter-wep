@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;500;600&display=swap" rel="stylesheet">
     <title>Dentistry</title>
 </head>
@@ -16,7 +17,6 @@
     <header>
         <div class="container">
             <div class="header">
-                <!-- <div class="left"> -->
                     <div id="headerBar" style="display: none;" class="bar">
                         <i class="fa-solid fa-bars-staggered"></i>
                     </div>
@@ -31,13 +31,12 @@
                         <a class="link" href="#">
                             <img class="image-logo" src="./images/logo.png" alt="logo">
                         </a>
-                    <!-- </div> -->
                 </div>
             </div>
         </div>
     </header>
-    <div class="landing" id="landing">
-        <div class="text">
+    <div class="landing" id="landing" data-aos="fade-up" data-aos-duration="2000">
+        <div class="text" data-aos="fade-up" data-aos-duration="2000">
             <h2>
                 أهلاً بكم
                 في موقع سكينة ومعجون
@@ -46,9 +45,9 @@
             </h2>
         </div>
     </div>
-    <div class="about-us" id="aboout">
-        <div class="container">
-            <div class="text">
+    <div class="about-us" id="aboout" >
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+            <div class="text" data-aos="fade-left" data-aos-duration="2000">
                 <h2>من نحن</h2>
                 <p>
                     موقع سكينة و معجون يهدف الى تلبية جميع طبقات المجتمع في اعمال النقاشة
@@ -62,33 +61,33 @@
             </div>
         </div>
     </div>
-    <div class="galary" id="galary">
+    <div class="galary" id="galary" data-aos="fade-up" data-aos-duration="2000">
         <h2>أعمالنا</h2>
         <div class="images">
-            <img src="./images/galary/image1.jpg" alt="">
-            <img src="./images/galary/image2.jpg" alt="">
-            <img src="./images/galary/image3.jpg" alt="">
-            <img src="./images/galary/image4.jpg" alt="">
-            <img src="./images/galary/image5.jpg" alt="">
-            <img src="./images/galary/image6.jpg" alt="">
-            <img src="./images/galary/image7.jpg" alt="">
-            <img src="./images/galary/image8.jpg" alt="">
-            <img src="./images/galary/image9.jpg" alt="">
-            <img src="./images/galary/image10.jpg" alt="">
-            <img src="./images/galary/image11.jpg" alt="">
-            <img src="./images/galary/image12.jpg" alt="">
-            <img src="./images/galary/image13.jpg" alt="">
-            <img src="./images/galary/image14.jpg" alt="">
-            <img src="./images/galary/image15.jpg" alt="">
-            <img src="./images/galary/image16.jpg" alt="">
-            <img src="./images/galary/image17.jpg" alt="">
-            <img src="./images/galary/image18.jpg" alt="">
-            <img src="./images/galary/image19.jpg" alt="">
-            <img src="./images/galary/image20.jpg" alt="">
+            <img src="./images/galary/image1.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image2.jpg" alt=""  data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image3.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image4.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image5.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image6.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image7.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image8.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image9.jpg" alt="" data-aos="fade-up" data-aos-duration="1500"> 
+            <img src="./images/galary/image10.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image11.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image12.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image13.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image14.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image15.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image16.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image17.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image18.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image19.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./images/galary/image20.jpg" alt="" data-aos="fade-up" data-aos-duration="1500">
         </div>
     </div>
     <div class="systemize" id="systemize">
-        <div class="elementor">
+        <div class="elementor" data-aos="zoom-in-up" data-aos-duration="2000">
             <h2>الاقتصادي</h2>
             <h4>
                 15ج - 20ج
@@ -112,9 +111,11 @@
                 <i class="fa-solid fa-square-check"></i>
                 جانب ديكور هديه
             </p>
-            <button class="elementorBut-one but">اطلب الان</button>
+            <a href="./pageForm">
+                <button class="elementorBut-one but">اطلب الان</button>
+            </a>
         </div>
-        <div class="elementor">
+        <div class="elementor" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="2000">
             <h2>اللوكس</h2>
             <h4>
                 22ج - 28ج
@@ -142,9 +143,11 @@
                 <i class="fa-solid fa-square-check"></i>
                 2 جانب ديكور هديه
             </p>
-            <button class="elementorBut-two but">اطلب الان</button>
+            <a href="./pageForm.html">
+                <button class="elementorBut-two but">اطلب الان</button>
+            </a>
         </div>
-        <div class="elementor">
+        <div class="elementor" data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="2000">
             <h2>سوبر لوكس</h2>
             <h4>
                 35ج - 40ج
@@ -172,9 +175,11 @@
                 <i class="fa-solid fa-square-check"></i>
                 3 جانب ديكور هديه
             </p>
-            <button class="elementorBut-three but">اطلب الان</button>
+            <a href="./pageForm.html">
+                <button class="elementorBut-three but">اطلب الان</button>
+            </a>
         </div>
-        <div class="elementor">
+        <div class="elementor" data-aos="zoom-in-up" data-aos-delay="600" data-aos-duration="2000">
             <h2>سوبر لكوس فاخر</h2>
             <h4>
                 45ج - 50ج
@@ -202,20 +207,22 @@
                 <i class="fa-solid fa-square-check"></i>
                 3 جانب ديكور هديه
             </p>
-            <button class="elementorBut-four but">اطلب الان</button>
+            <a href="./pageForm.html">
+                <button class="elementorBut-four but">اطلب الان</button>
+            </a>
         </div>
     </div>
-    <div class="contact-us" id="contact">
+    <div class="contact-us" id="contact" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
             <h2>تواصل معنا</h2>
-            <form onsubmit="sendMessage(); reset(); return false;">
-                <div class="left">
+            <form method="post">
+                <div class="left" data-aos="fade-right" data-aos-duration="2000">
                     <input placeholder="الأسم" type="text" name="name" id="name" required>
                     <input placeholder="رقم الهاتف" type="text" name="phone" id="phone" required>
                     <input placeholder="الايميل" type="email" name="email" id="email" required>
                     <input placeholder="الموضوع" type="text" name="supject" id="supject">
                 </div>
-                <div class="right">
+                <div class="right" data-aos="fade-left" data-aos-duration="2000">
                     <textarea placeholder="مضمون الرساله" name="mesge" id="message" cols="30" rows="10" required></textarea>
                     <input type="submit" value="ارسال" name="send" id="submit">
                 </div>
@@ -226,7 +233,7 @@
         <div class="contact">
             <h3>تابعونا علي</h3>
             <div class="icon">
-                <a href="">
+                <a href="https://www.facebook.com/profile.php?id=100086703202955">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
                 <a href="">
@@ -247,5 +254,9 @@
     <span class="scroll" style="display: none;"><i class="fa-solid fa-arrow-right"></i></span>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="./app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

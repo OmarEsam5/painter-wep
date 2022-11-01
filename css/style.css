@@ -373,10 +373,9 @@ header .header .bar {
     padding: 15px;
     border-radius: 8px;
     width: 260px;
-    transition: .5s;
 }
 .systemize .elementor:hover {
-    transform: scale(1.04);
+    /* transform: scale(1.04) !important; */
     box-shadow: 0 2px 15px 0 rgb(0 0 0 / 45%);
 }
 .systemize .elementor h2 {
