@@ -182,6 +182,11 @@ header .header .bar {
     line-height: 35px;
     font-size: 25px;
     color: var(--text-color);
+    display: inline;
+}
+.about-us .container .text p + span {
+    font-size: 30px;
+    font-weight: 900;
 }
 .about-us .container .image img {
     width: 215px;
